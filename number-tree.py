@@ -38,4 +38,7 @@ while loop != len(num2):
             temp = temp/num2[loop]
         temp = 0
     loop = loop + 1
-print(nums)
+if(len(nums) != 0):
+    print(nums)
+else:
+    print('This is a prime number')
