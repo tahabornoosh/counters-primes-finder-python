@@ -28,7 +28,7 @@ def prime(range):
 nums = []
 temp = 0
 num = int(input('Number to find'))
-num2 = prime(num)
+num2 = prime(round(math.sqrt(num)+1))
 loop = 0
 while loop != len(num2):
     if(num % num2[loop] == 0):
